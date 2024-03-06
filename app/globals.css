@@ -17,11 +17,27 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 1rem;
+  padding: 2rem;
+  /* Fallback for browsers that do not support gradients */
+  /* background-color: #86d12b; */
+  /* Yellow */
+
+  /* Linear Gradient */
+  background-image: linear-gradient(#882003, #e88223);
+  /* Yellow to Sky Blue */
+
+
+  /* background-image: url('/pat1.jpeg'); */
+  /* background-size: contain; */
+  /* Adjusts the size of the background image to cover the entire container */
+  background-position: center;
+  /* Centers the background image within the container */
+  height: 100vh;
+  /* opacity: 0.9; */
+  /* Sets the height of the container to 100% of the viewport height */
+  /* Opacity added to the background image */
+
+
+
 }
