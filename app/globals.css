@@ -17,8 +17,6 @@
 }
 
 body {
-  margin: 1rem;
-  padding: 2rem;
   /* Fallback for browsers that do not support gradients */
   /* background-color: #86d12b; */
   /* Yellow */
@@ -34,10 +32,10 @@ body {
   background-position: center;
   /* Centers the background image within the container */
   height: 100vh;
-  /* opacity: 0.9; */
-  /* Sets the height of the container to 100% of the viewport height */
-  /* Opacity added to the background image */
 
-
-
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
 }
